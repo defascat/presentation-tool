@@ -12,7 +12,7 @@ public class B5 {
     static class Sparrow extends Bird{}
     public static void main(String[] args) {
         List<? extends Bird> l = new ArrayList<>();
-        l.add(new Sparrow());
-        l.add(new Bird());
+//        l.add(new Sparrow());
+//        l.add(new Bird());
     }
 }

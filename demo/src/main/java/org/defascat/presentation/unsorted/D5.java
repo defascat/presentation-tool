@@ -7,5 +7,5 @@ package org.defascat.presentation.unsorted;
 @FunctionalInterface
 public interface D5 {
     int a();
-    int b();
+//    int b();
 }

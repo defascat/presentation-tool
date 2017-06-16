@@ -12,7 +12,7 @@ import java.util.List;
 public class B6 {
     public static void main(String[] args) {
         List<? super IOException> l = new ArrayList<>();
-        l.add(new Exception());
+//        l.add(new Exception());
         l.add(new FileNotFoundException());
     }
 }
