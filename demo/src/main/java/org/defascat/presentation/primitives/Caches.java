@@ -1,10 +1,6 @@
-package org.defascat.presentation.unsorted;
+package org.defascat.presentation.primitives;
 
-/**
- *
- * @author andy
- */
-public class B3 {
+public class Caches {
     public static void main(String[] args) {
         System.out.println(Short.valueOf((short) 22) == Short.valueOf((short) 22));
         System.out.println(Character.valueOf((char) 22) == Character.valueOf((char) 22));
