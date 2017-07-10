@@ -5,9 +5,6 @@ package org.defascat.presentation.concurrency;
  * @author andy
  */
 public class SynchronizedDifference {
-    public static void main(String[] args) {        
-    }
-    
     public synchronized void doIt() {
     }
 

@@ -1,25 +1,20 @@
 package org.defascat.presentation.time;
 
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 
-/**
- *
- * @author andy
- */
 public class Formatters {
 
     private static final SimpleDateFormat FORMAT = new SimpleDateFormat();
-    private static final DateTimeFormatter NEW_FORMAT = DateTimeFormatter.ISO_DATE_TIME;
 
     public static void main(String[] args) {
         int[] sizes = new int[]{10, 100, 1000, 10000};
         for (int size : sizes) {
             System.out.println("Size: " + size);
+            
             List<String> sequentialDates = datesToString(LongStream.range(0, size).sequential());
             System.out.println("Sequential: " + sequentialDates.size());
 

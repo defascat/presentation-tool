@@ -1,9 +1,5 @@
 package org.defascat.presentation.concurrency;
 
-/**
- *
- * @author andy
- */
 public class VeryImportantThread {
     public static void main(String[] args) {
         final Thread VIT = new Thread(() -> {

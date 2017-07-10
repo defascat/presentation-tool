@@ -4,8 +4,7 @@ import java.io.IOException;
 import java.text.ParseException;
 
 /**
- * Smart rethrow
- * @author andy
+ * javap
  */
 public class RethrowException {
     public static void main(String[] args) throws IOException, ParseException {

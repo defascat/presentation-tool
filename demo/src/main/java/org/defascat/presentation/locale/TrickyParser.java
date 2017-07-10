@@ -3,9 +3,6 @@ package org.defascat.presentation.locale;
 import java.text.NumberFormat;
 import java.text.ParseException;
 
-/**
- *
- */
 public class TrickyParser {
     public static void main(String[] args) throws ParseException {
         final NumberFormat formatter = NumberFormat.getIntegerInstance();
